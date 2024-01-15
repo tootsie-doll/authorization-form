@@ -4,4 +4,4 @@
 [Посмотреть верстку](https://github.com/tootsie-doll/authorization-form.git)
 <hr>
 
-[Посетить сайт](https://tootsie-doll.github.io/posmotri_v_okno/ "Смотрим, любуемся")
+[Посетить сайт](https://tootsie-doll.github.io/authorization-form/ "Смотрим, любуемся")
