@@ -6,16 +6,18 @@
 }
 
 .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
     font-family: var(--main-font), sans-serif;
+    background-image: url(../images/dotted-l.svg);
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
 }
 
 button {
@@ -32,6 +34,7 @@ button {
     text-align: center;
     text-transform: uppercase;
     background-color: #fff;
+    border-radius: 6px;
 }
 
 button:hover {
@@ -122,4 +125,24 @@ label {
     font-size: 12px;
     text-transform: uppercase;
     color: inherit;
+}
+
+.title-group{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 50px;
+    font-weight: 500;
+}
+
+.title {
+    display: inline-block;
+    padding-inline-start: 10px;
+}
+
+.image {
+    display: inline-block;
+    width: auto;
+    height: 32px;
 }
