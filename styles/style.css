@@ -57,7 +57,6 @@ input:not([type=checkbox]), #password {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
-    color: inherit;
     background-color: transparent;
 }
 
