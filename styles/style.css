@@ -1,0 +1,125 @@
+:root {
+    --bg-color: #F5F5FB;
+    --violet: #31315B;
+    --main_gray: #8A8A9D;
+    --main-font: 'TT Moscow Economy';
+}
+
+.page {
+    font-family: var(--main-font), sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #fff;
+    padding-block: 20px 20px;
+    color: var(--violet);
+    font-family: inherit;
+    font-weight: 800;
+    font-size: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+button:hover {
+    box-shadow: inset 0 0 0 100px rgb(255 255 255 / 0.15);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 2px solid #8A8A9D;
+    outline-offset: 0;
+}
+
+input:not([type=checkbox]), #password {
+    width: 100%;
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 20px;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+}
+
+input:not([type=checkbox])::placeholder {
+    color: rgb(255 255 255/ 0.6);
+}
+
+input:not([type=checkbox]):focus {
+    outline: 2px solid #fff;
+    outline-offset: 0;
+}
+
+input[type=checkbox] {
+    width: 27px;
+    height: 27px;
+    margin-block: 20px;
+    accent-color: var(--main_gray);
+}
+
+input[type=checkbox]:focus {
+    outline: 2px solid #fff;
+    outline-offset: 0;
+}
+
+.label {
+    padding-block-end: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    color: currentColor;
+}
+
+
+.form {
+    width: 50%;
+    border: 1px solid var(--violet);
+    border-radius: 16px;
+    padding: 45px;
+    background-color: var(--violet);
+
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+
+    /* clip: rect(0 0 0 0); */
+    clip-path: inset(0, 0, 0, 0);
+}
+
+label {
+    display: block;
+    margin-block-end: 5px;
+    margin-block-start: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: inherit;
+}

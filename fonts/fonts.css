@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'TT Moscow Economy', sans-serif;
+    src: url(./TT_Moscow_Economy_TrueType/TT_Moscow_Economy_Normal.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Moscow Economy', sans-serif;
+    src: url(./TT_Moscow_Economy_TrueType/TT_Moscow_Economy_Italic.ttf) format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Moscow Economy', sans-serif;
+    src: url(./TT_Moscow_Economy_TrueType/TT_Moscow_Economy_Bold.ttf) format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Moscow Economy', sans-serif;
+    src: url(./TT_Moscow_Economy_TrueType/TT_Moscow_Economy_Light.ttf) format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Moscow Economy', sans-serif;
+    src: url(./TT_Moscow_Economy_TrueType/TT_Moscow_Economy_Medium.ttf) format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
